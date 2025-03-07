@@ -66,8 +66,8 @@ def preprocess_input(user_inputs):
     return pd.DataFrame([processed_inputs], columns=column_order)
 
 st.title("Liver Cancer Prediction App")
-st.write("### Countries Available in Dataset:")
-st.write(", ".join(available_countries))
+# st.write("### Countries Available in Dataset:")
+# st.write(", ".join(available_countries))
 
 st.write("### Enter Details Below")
 
